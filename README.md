@@ -1,4 +1,4 @@
 # Data-115
-This File Folder holds all of the things I need for my Personal Dataset Project
 
-![This file shows the prime age for free agents in the MLB](https://github.com/Nicholasg19/Data-115/blob/master/ImageData115.jpg)
+## Motivation
+Throughout my life I have been extremely involved in the sports world, especially the game of baseball. Whether it be on the field or behind the scenes, I have always loved the intricacies of baseball above all others. My dream job is to one day become a data analysit for one of the 30 MLB franchises or even work in the MLB headquarters in New York City. The limitless bounds of this Personal Dataset Project has allowed me to bring this passion into the classroom. I have always wondered why some positions tend to get paid significantly more than others when their contributions are all important to the success of their team. In this project I hope to discover whether or not the statistical categories of Runs, RBI, Battting Average, On Base Percentage, and Slugging Percentage can predict the salaries of different positions in Major League Baseball.
