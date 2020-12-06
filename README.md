@@ -11,6 +11,7 @@ Fortunately for me, Major League Baseball does an amazing job of tracking statis
 
 ## Visualization
 To begin my project, I decided to research whether or not there was actually a discripency in the way each position was being paid. To do this I created a simple boxplot revealing the average salary for each position. The resulting image showed how different each position was paid on average. At first glance we see that the Designated Hitter position is paid signficantly more than the rest. I believed that this must have to do with a difference in offensive statistics, so I set out on a way to find out what these may be.
+
 ![Average Salary by Position](https://github.com/Nicholasg19/Data-115/blob/master/Average%20Salary.png)
 ## Analysis
 Below is an image representing the linear regression model I fitted to the Positional-Salaries.csv that I created. I attempted to fit a regression line to the 5 statistical categories I believed are most important to an MLB player's success, at least from an offensive standpoint. This regression line estimated that over 94% of the average salary by position can be reflected in this position's average Runs Scored, RBI, Batting Average, On Base Percentage, and Slugging Percentage. The fit of the predicted model is reiterated in the second image which plots the predicted salaries against the actual average salaries, which shows a fairly linear relationship.
