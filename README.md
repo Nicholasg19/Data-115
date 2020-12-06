@@ -13,6 +13,7 @@ Fortunately for me, Major League Baseball does an amazing job of tracking statis
 
 ## Analysis
 Below is an image representing the linear regression model I fitted to the Positional-Salaries.csv that I created. I attempted to fit a regression line to the 5 statistical categories I believed are most important to an MLB player's success, at least from an offensive standpoint. This regression line estimated that over 94% of the average salary by position can be reflected in this position's average Runs Scored, RBI, Batting Average, On Base Percentage, and Slugging Percentage.
+
 ![Linear Regression](LinearRegression.png)
 
 Although this regression model seems to fairly accurately estimate the average salary by position, I do not believe this would very accurately translate to a spreadsheet with individual players. Although this analysis fits the mean, it also implies that salary is negatively correlated with all of the key statistics except for Average RBI. This is a good predictor for the mean positional statistics, however logic will tell us this may not be the best regressional model to use when predicting how much money an athlete should be paid in a given season. This regression model tells us that although these statistics may be very popular in debating skill level, they do not accurately predict the monetary value of an MLB athlete.
