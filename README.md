@@ -8,3 +8,8 @@ In this project I have two excel files, one of which came straight from [rotowir
 
 ## Data Proccessing
 Fortunately for me, Major League Baseball does an amazing job of tracking statistics in a neat organized fashion and presenting them in a very readable manner. The raw data came formatted with each entry being one of the 613 players to step into the batters box in the regualer season in 2020. In order to avoid outliers from players who played an insignificant number of games this season, I first got rid of all players who played less than 10 games this past season. In a normal year most analysts only use data from player who played at least 50 games, but this season was only 60 games long, meaning very few players met the normal threshold. I then used  Excel's Pivot Table application in order to create a new position based spreadsheet. This new spreadsheet is indexed by each position, and includes that position's average Runs Scored, RBI, Batting Average, On Base Percentage, and Slugging Percentage. I then added a final column, which is the Average Salary earned by each position in 2020. It is key that when placing these salaries into the new spreadsheet to remove commas, or Python will read these lines as text not as numerical values, which will be key later on. The resulting spreadsheet is included in the repository as Averages-and-Salaries.csv, and is the spreadsheet that I am using for the rest of the analysis.
+
+
+
+## Analysis
+
